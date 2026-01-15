@@ -27,8 +27,8 @@ jobs:
     - name: Build and push Backend
       uses: docker/build-push-action@v4
       with:
-        context: .
-        file: ./Dockerfile
+        context: ./backend
+        file: ./backend/Dockerfile
         push: true
         tags: |
           ${{ env.DOCKER_REGISTRY }}/${{ env.BACKEND_IMAGE }}:${{ github.sha }}
@@ -37,8 +37,8 @@ jobs:
     - name: Build and push Frontend
       uses: docker/build-push-action@v4
       with:
-        context: .
-        file: ./Dockerfile.frontend
+        context: ./frontend
+        file: ./frontend/Dockerfile.frontend
         push: true
         tags: |
           ${{ env.DOCKER_REGISTRY }}/${{ env.FRONTEND_IMAGE }}:${{ github.sha }}
