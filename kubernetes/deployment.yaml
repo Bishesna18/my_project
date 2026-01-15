@@ -18,8 +18,8 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: some-content-nginx:latest  
-          imagePullPolicy: Never  
+          image: bishesna/some-content-nginx:latest  
+          imagePullPolicy: Always 
           ports:
             - containerPort: 80
               name: http

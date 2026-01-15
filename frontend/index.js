@@ -1,6 +1,6 @@
 // API Base URL
 //const API_URL = "/api/employee";
-const API_URL = "http://localhost:8000/api/employee";
+const API_URL = "/api/employee";
 
 // Global variables
 let employees = [];
