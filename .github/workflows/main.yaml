@@ -2,7 +2,7 @@ name: CI Pipeline
 
 on:
   push:
-    branches: [ bishesna_practical_task ]
+    branches: [ main ]
   pull_request:
     branches: [ main ]
 env:
