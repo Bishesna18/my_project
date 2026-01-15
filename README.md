@@ -7,7 +7,7 @@
 
 ![Namespace Organization](image/namespace.png)
 
-### user flow:
+### User Flow:
 
 ![image.png](image/user-flow.png)
 
