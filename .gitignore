@@ -1,0 +1,3 @@
+kubernetes/git-secrets.yaml
+kubernetes/secret-b.yaml
+kubernetes/secret-docker.yaml
