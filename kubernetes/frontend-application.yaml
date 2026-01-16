@@ -2,7 +2,6 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: frontend
-  namespace: argocd
   annotations:
     argocd-image-updater.argoproj.io/image-list: frontend=docker.io/bishesna/some-content-nginx
     argocd-image-updater.argoproj.io/frontend.update-strategy: latest
